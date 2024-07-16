@@ -6,10 +6,12 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class GradeList {
-    private int gradeId;
-    private List<Grade> grades;
+public class StudentGrade {
+    private String name;
+    private Integer age;
+    private int grade;
 }
